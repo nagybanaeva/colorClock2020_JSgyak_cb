@@ -1,0 +1,19 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+
+html, body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#clock {
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+	font-weight: bold;
+  font-size: 5rem;
+}
