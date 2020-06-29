@@ -8,12 +8,20 @@ html, body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	flex-direction: column;
 }
 
 #clock {
-  text-align: center;
-  font-family: 'Pangolin', cursive;
+	text-align: center;
+	font-family: 'Pangolin', cursive;
 	font-weight: bold;
-  font-size: 5rem;
+	font-size: 5rem;
+}
+
+#alarm {
+	height: 50%;
+}
+
+#sheep {
+	height: 30%;
 }
